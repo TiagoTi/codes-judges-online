@@ -25,6 +25,7 @@ Description
 
 */
 import java.util.Scanner;
+import java.util.NoSuchElementException;
 
 public class Main {
 	static final int FORTY_TWO = 42;
@@ -36,11 +37,15 @@ public class Main {
 		int currentNumber;
 
 		while(NO_HAS_BREAK){
-				currentNumber = scanner.nextInt();
+				try{
+					currentNumber = scanner.nextInt();
 
-				if(currentNumber == FORTY_TWO) break;
-				System.out.println(currentNumber);
-				if(!scanner.hasNext()) break;
+					if(currentNumber == FORTY_TWO) break;
+					System.out.println(currentNumber);
+					if(!scanner.hasNext()) break;
+				} catch (NoSuchElementException e) {
+					break;
+				}
 		}
 	}
 
