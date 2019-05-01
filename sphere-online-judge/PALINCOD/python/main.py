@@ -20,12 +20,10 @@ Description
     Restrictions:
         restrictions details.
 
-    Link:
+    Link: https://www.spoj.com/problems/PALINCOD/
 """
 
 HALF = 2
-
-# Input
 try:
     number_of_testcase = int(input())
     string_cases = []
