@@ -1,1 +1,2 @@
-EOF when reading a line
+1 "YES"
+2 "YES"
