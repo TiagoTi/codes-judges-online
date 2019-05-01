@@ -33,6 +33,7 @@ try:
         string_cases.append(input())
 except EOFError as error:
     print(error)
+    exit(0)
 
 for case in string_cases:
     half_length_of_string = int(len(case)/HALF)
