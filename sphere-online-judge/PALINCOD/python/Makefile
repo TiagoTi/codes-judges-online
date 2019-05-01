@@ -1,4 +1,4 @@
-CASES_TO_TESTS = 0 1
+CASES_TO_TESTS = 0 1 2
 
 main: inputs outputs
 	@for i in ${CASES_TO_TESTS}; \
