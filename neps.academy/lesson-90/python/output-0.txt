@@ -1,0 +1,167 @@
+<filter object at 0x7f47f9abaef0>
+NTem a < False 0
+NTem a f False 0
+NTem a i False 0
+NTem a l False 0
+NTem a t False 0
+NTem a e False 0
+NTem a r False 0
+NTem a   False 0
+NTem a o False 0
+NTem a b False 0
+NTem a j False 0
+NTem a e False 0
+NTem a c False 0
+NTem a t False 0
+NTem a   False 0
+Tem a a True 0
+NTem a t False 1
+NTem a   False 0
+NTem a 0 False 0
+NTem a x False 0
+NTem a 7 False 0
+NTem a f False 0
+NTem a 4 False 0
+NTem a 7 False 0
+NTem a f False 0
+NTem a 9 False 0
+Tem a a True 0
+NTem a b False 1
+Tem a a True 0
+NTem a e False 1
+NTem a f False 0
+NTem a 0 False 0
+NTem a > False 0
+NTem e < False 0
+NTem e f False 0
+NTem e i False 0
+NTem e l False 0
+NTem e t False 0
+Tem e e True 0
+NTem e r False 1
+NTem e   False 0
+NTem e o False 0
+NTem e b False 0
+NTem e j False 0
+Tem e e True 0
+NTem e c False 1
+NTem e t False 0
+NTem e   False 0
+NTem e a False 0
+NTem e t False 0
+NTem e   False 0
+NTem e 0 False 0
+NTem e x False 0
+NTem e 7 False 0
+NTem e f False 0
+NTem e 4 False 0
+NTem e 7 False 0
+NTem e f False 0
+NTem e 9 False 0
+NTem e a False 0
+NTem e b False 0
+NTem e a False 0
+Tem e e True 0
+NTem e f False 1
+NTem e 0 False 0
+NTem e > False 0
+NTem i < False 0
+NTem i f False 0
+Tem i i True 0
+NTem i l False 1
+NTem i t False 0
+NTem i e False 0
+NTem i r False 0
+NTem i   False 0
+NTem i o False 0
+NTem i b False 0
+NTem i j False 0
+NTem i e False 0
+NTem i c False 0
+NTem i t False 0
+NTem i   False 0
+NTem i a False 0
+NTem i t False 0
+NTem i   False 0
+NTem i 0 False 0
+NTem i x False 0
+NTem i 7 False 0
+NTem i f False 0
+NTem i 4 False 0
+NTem i 7 False 0
+NTem i f False 0
+NTem i 9 False 0
+NTem i a False 0
+NTem i b False 0
+NTem i a False 0
+NTem i e False 0
+NTem i f False 0
+NTem i 0 False 0
+NTem i > False 0
+NTem o < False 0
+NTem o f False 0
+NTem o i False 0
+NTem o l False 0
+NTem o t False 0
+NTem o e False 0
+NTem o r False 0
+NTem o   False 0
+Tem o o True 0
+NTem o b False 1
+NTem o j False 0
+NTem o e False 0
+NTem o c False 0
+NTem o t False 0
+NTem o   False 0
+NTem o a False 0
+NTem o t False 0
+NTem o   False 0
+NTem o 0 False 0
+NTem o x False 0
+NTem o 7 False 0
+NTem o f False 0
+NTem o 4 False 0
+NTem o 7 False 0
+NTem o f False 0
+NTem o 9 False 0
+NTem o a False 0
+NTem o b False 0
+NTem o a False 0
+NTem o e False 0
+NTem o f False 0
+NTem o 0 False 0
+NTem o > False 0
+NTem u < False 0
+NTem u f False 0
+NTem u i False 0
+NTem u l False 0
+NTem u t False 0
+NTem u e False 0
+NTem u r False 0
+NTem u   False 0
+NTem u o False 0
+NTem u b False 0
+NTem u j False 0
+NTem u e False 0
+NTem u c False 0
+NTem u t False 0
+NTem u   False 0
+NTem u a False 0
+NTem u t False 0
+NTem u   False 0
+NTem u 0 False 0
+NTem u x False 0
+NTem u 7 False 0
+NTem u f False 0
+NTem u 4 False 0
+NTem u 7 False 0
+NTem u f False 0
+NTem u 9 False 0
+NTem u a False 0
+NTem u b False 0
+NTem u a False 0
+NTem u e False 0
+NTem u f False 0
+NTem u 0 False 0
+NTem u > False 0
+Tipo invalido
