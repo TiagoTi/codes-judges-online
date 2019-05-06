@@ -38,6 +38,8 @@ risada = filtrar_consoantes(risada)
 print('risada : ', risada)
 
 def tem_sequencia(risada):
+    if len(risada) == 1:
+        return True
     for i in risada:
         contador = 0
         for j in risada:
