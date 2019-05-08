@@ -1,5 +1,6 @@
 CASES_TO_TESTS = 0 1 2
 
+
 main: inputs outputs
 	@for i in ${CASES_TO_TESTS}; \
 	do \
@@ -10,14 +11,20 @@ main: inputs outputs
 		echo "------------------------------------------------------------------------"; \
 	done
 
+
 inputs:
 	@for i in ${CASES_TO_TESTS}; \
 	do \
 		touch input-$$i.txt; \
 	done
 
+
 outputs:
 	@for i in ${CASES_TO_TESTS}; \
 	do \
 		touch output-sample-$$i.txt; \
 	done
+
+
+	sonar:
+		../../../bin/sonar-java.sh
