@@ -1,11 +1,11 @@
-CASES_TO_TESTS = 0 1 2 3
+CASES_TO_TESTS = 0 1 2
 
 main: inputs outputs
 	@for i in ${CASES_TO_TESTS}; \
 	do \
 		echo "------------------------------------------------------------------------"; \
 		echo Testing sample $$i; \
-		python3 main.py < input-$$i.txt > output-$$i.txt && \
+		javac Main.java && java Main < input-$$i.txt > output-$$i.txt && \
 		diff -y output-$$i.txt output-sample-$$i.txt; \
 		echo "------------------------------------------------------------------------"; \
 	done

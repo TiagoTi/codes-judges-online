@@ -16,8 +16,10 @@ Description
 
 VOGAIS = ['a', 'e', 'i', 'o', 'u']
 
+
 def eh_vogal(letra):
     return letra in VOGAIS
+
 
 def buscar_risadas():
     try:
@@ -31,16 +33,10 @@ def filtrar_consoantes(risada):
     return ''.join(list(filter(eh_vogal, risada)))
 
 
-risada = buscar_risadas()
-print('risada : ', risada)
-
-risada = filtrar_consoantes(risada)
-print('risada : ', risada)
-
 def tem_sequencia(risada):
     if len(risada) == 1:
         return True
-    for i in risada:
+    for i in VOGAIS:
         contador = 0
         for j in risada:
             if i == j:
@@ -51,6 +47,7 @@ def tem_sequencia(risada):
                 contador = 0
         return False
 
+
 def resposta(tem_sequencia):
     if tem_sequencia is True:
         return 'S'
@@ -59,4 +56,5 @@ def resposta(tem_sequencia):
     else:
         return None
 
-print(resposta(tem_sequencia(risada)))
+
+print(resposta(tem_sequencia(filtrar_consoantes(buscar_risadas()))))
